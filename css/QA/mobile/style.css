@@ -1,0 +1,238 @@
+:root {
+    --mainblue: #89A7C2;
+    --mainpink: #FF9A9A;
+    --mainyellow: #F9DD83;
+    --maingray: #CCCCCC;
+    --maindarkgray: #707070;
+  
+  }
+
+
+  @media (min-width: 375px)and (max-width: 1127px) {
+
+
+
+
+.aa_navbar_box{
+    width: 100%;
+    height: 70px;
+}
+.aa_qatitlebox{
+  
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.aa_qatitlebox_web{
+  display: none;
+}
+    .aa_qatitle_ch{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 24px;
+        color: var(--mainblue);
+     
+   
+       }
+   
+       .aa_qatitle_en {
+           text-align: center;
+           margin-top: 80px;
+     
+           font-size: 16px;
+           color: var(--mainblue);
+           letter-spacing: 0.8px;
+   
+      
+       }
+
+
+   
+       .aa_qatitlebox{
+       display: flex;
+       justify-content: center;
+    
+       /* border: solid 1px red; */
+     
+       }
+      
+       .aa_qatitle_line{
+        width: 40px;
+        height: 1px;
+        margin-top: 70px;
+        background: var(--mainblue);
+        margin-right: 10px;
+      }
+
+       .aa_qatitle_line2{
+        width: 40px;
+        height: 1px;
+        margin-top: 90px;
+        margin-left: 10px;
+        background: var(--mainblue);
+    
+        }
+
+
+        .aa_qabigbox{
+            margin-top: 10px;
+            
+            
+        }
+
+        
+
+
+        /*下拉內頁 */
+ 
+
+      .container {
+        max-width: 960px;
+      }
+      
+      .panel-default>.panel-heading {
+        color: #333;
+        background-color: #fff;
+        border-color: #e4e5e7;
+        padding: 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        width:95%;
+        margin: 0 auto;
+        user-select: none;
+        border-radius:8px ;
+      }
+      
+      .panel-default>.panel-heading a {
+        display: block;
+        padding: 10px 15px;
+        height: 50px;
+        margin-top: 25px;
+        color: #707070;
+        line-height: 4vh;
+        text-decoration:none;
+        font-size: 16px;
+       
+      }
+      .panel-body{
+          background-color: #fff;
+          padding: 20px;
+          font-size: 12px;
+          margin: 0 auto;
+        width: 95%;
+      }
+      .panel-default>.panel-heading a:after {
+        
+        content: "";
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+      
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        float: right;
+        transition: transform .25s linear;
+        -webkit-transition: -webkit-transform .25s linear;
+      }
+      
+      .panel-default>.panel-heading a[aria-expanded="true"] {
+        background-color: #F9DD83;
+        border-radius:10px ;
+      }
+      
+      .panel-default>.panel-heading a[aria-expanded="true"]:after {
+        content: "\2212";
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+      
+      .panel-default>.panel-heading a[aria-expanded="false"]:after {
+        content: "\002b";
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      
+      .accordion-option {
+        width: 100%;
+        float: left;
+        clear: both;
+        margin: 15px 0;
+      }
+      
+      .accordion-option .title {
+        font-size: 20px;
+        font-weight: bold;
+        float: left;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .accordion-option .toggle-accordion {
+        float: right;
+        font-size: 16px;
+        color: #6a6c6f;
+      }
+      
+      .accordion-option .toggle-accordion:before {
+        content: "Expand All";
+      }
+      
+      .accordion-option .toggle-accordion.active:before {
+        content: "Collapse All";
+      }
+
+/* 聯絡我們 */
+.aa_callme{
+   
+    width: 100%;
+    margin-top: 60px;
+}
+.aa_callme_title{
+    font-size: 30px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.aa_callme_line{
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+    border-bottom: solid 1px#707070 ;
+    
+}
+
+.aa_callme_text{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+line-height: 4vh;
+margin-bottom: 50px;
+font-size: 12px;
+
+
+
+
+}
+.aa_qa_btu_box{
+  font-size: 14px;
+  
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  
+  }
+  .aa_qa_btu_box_btu{
+ 
+  color: #ffffff;
+  width: 110px;
+  height: 38px;
+  border-radius: 30px;
+  background-color: #89A7C2;
+  border: 0;
+  }
+
+}

@@ -1,0 +1,920 @@
+:root {
+    --mainblue: #89A7C2;
+    --mainpink: #FF9A9A;
+    --mainyellow: #F9DD83;
+    --maingray: #CCCCCC;
+    --maindarkgray: #707070;
+  
+  }
+
+
+  @media (min-width: 375px)and (max-width: 1127px) {
+
+/* *{
+    border: 1px red solid !important;
+} */
+body{
+  background-color: #F7F4EE !important;
+}
+
+
+    .aa_navbar_box{
+      width: 100px;
+      height: 70px;
+    }
+
+    .aa_productdetail_box1{
+      width: 303px;
+     
+      margin: 0 auto;
+      margin-top: 45px;
+    }
+.aa_productdetail_box1_img-web{
+  display: none;
+}
+
+
+
+
+.aa_productdetail_box1_text_title{
+  margin-top: 38px;
+  font-size: 16px;
+  line-height: 3vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+.aa_productdetail_box1_text_appraise_box{
+  margin-top: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#aa_productdetail_box1_text_appraise_star{
+  width: 16px;
+ height: 16px;
+ float: left;
+margin-top: 2px;
+margin-right: 5px;
+fill: #F9DD83;
+
+}
+
+.aa_productdetail_box1_text_appraise{
+  font-size: 12px;
+}
+
+
+
+.aa_productdetail_box1_text_textbox{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.aa_productdetail_box1_text_text_rte{
+  width: 5px;
+  height: 37px;
+background-color: var(--maingray);
+margin-right:12px ;
+  float: left;
+
+
+}
+
+.aa_productdetail_box1_text_text{
+  font-size: 12px;
+  color: var(--maindarkgray);
+  }
+
+
+.aa_productdetail_box1_text_tagbox{
+  margin-top: 17px;
+  height: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+
+.aa_productdetail_box1_text_tag1{
+  border-radius: 5px;
+  color: var(--maindarkgray);
+  background-color: #cccccc00;
+  font-size: 12px;
+  border: var(--maindarkgray) 1px solid;}
+  
+
+.aa_productdetail_box1_text_tag2{
+  border-radius: 5px;
+  color: var(--maindarkgray);
+  font-size: 12px;
+  background-color: #cccccc00;
+  border: var(--maindarkgray) 1px solid;}
+
+  .aa_productdetail_box1_text_money{
+    margin-top: 21px;
+    font-size: 24px;
+    color: var(--maindarkgray);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+
+
+.aa_productdetail_box1_text_countbox{
+  margin-top: 30px;
+
+}
+
+.aa_productdetail_box1_text_count{
+  font-size: 12px;
+}
+
+.aa_productdetail_box1_text_updown{
+  width: 100%;
+  height: 40px;
+ 
+}
+
+/* 數量選擇 */
+
+#myform{
+  display: flex;
+  justify-content: center;
+}
+.qty {
+  width:100%;
+  height: 35px;
+  text-align: center;
+  border: 0;
+  background-color: #fff;
+
+}
+
+
+input.qtyplus {
+  width: 45px;
+  height: 35px;
+ 
+  border-radius: 0 10px 10px 0 
+  ;
+  background-color: #fff;
+ border: 0;
+  
+}
+
+input.qtyminus {
+  width: 45px;
+  height: 35px;
+  
+  border-radius:  10px 0 0 10px ;
+  background-color: #fff;
+  border: 0;
+}
+
+
+
+
+
+.aa_productdetail_box1_text_btn{
+ 
+ 
+
+  margin-top: 32px;
+  position: relative;
+}
+
+
+
+.aa_productdetail_box1_text_btnJoin{
+  width:140px;
+  height: 35px;
+  border-radius: 18px;
+  background-color: var(--mainyellow);
+  color: var(--maindarkgray);
+  font-size: 14px;   
+ 
+  border: 0;
+  
+
+}
+.aa_productdetail_box1_text_btnLove{
+   width: 140px;
+  height: 35px;
+  position: absolute;
+  right: 0;
+  border-radius: 18px;
+  background-color: var(--mainyellow);
+  color: var(--maindarkgray);
+  font-size: 14px;   
+
+  border: 0;
+  
+}
+
+
+/* 用bootstrap作，會重複??? */
+/* 手機板商品圖 */
+ .aa_productdetail_box1_img_mobile{
+width: 303px;
+height:  303px;
+
+background-color: #fff;
+ }
+.carousel.slide{
+  width: 280px;
+  height: 280px;
+
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.carousel-indicators li{
+ width: 10px !important;
+ height: 10px;
+ border-radius: 10px;
+ 
+
+ margin-right: 10px!important;
+ background-color: #89A7C2 !important;
+}
+
+
+.carousel-indicators{
+  /* display:inline-block;
+  position: absolute;
+  left: 500px;
+  top: 240px; */
+  /* position: absolute !important; */
+  
+
+  bottom: -45px !important;
+
+}
+.carousel-indicators.active{
+
+}
+
+.carousel-item img{
+
+ 
+}
+
+.carousel-control-next-icon{
+  display: none;
+}
+.carousel-control-prev-icon{
+  display: none;
+}
+/* 第二區 */
+.aa_productdetail_box2{
+    
+  width: 100%;
+  height: 2000px;
+  margin: 0 auto;
+  margin-top: 70px;
+
+
+
+}
+
+.aa_productdetail_box2_top_select_box{
+width: 303px;
+margin: 0 auto;
+
+
+}
+.aa_productdetail_box2_top_select_boxtext{
+font-size: 14px;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.aa_productdetail_box2_top_select_line{
+width: 100%;
+
+height: 8px;
+border-bottom: solid 1px var(--maingray);
+}
+
+
+
+
+
+
+
+
+  /* 第二部分 */
+  .aa_productdetail_box2{
+    
+width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+
+}
+
+.aa_productdetail_box2_top_select1{
+  border-bottom: 5px solid var(--mainyellow);
+
+}
+/* 商品描述 */
+.aa_productdetail_box2_top_detailed_box{
+  width: 100%;
+
+  
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+.aa_productdetail_box2_top_detailed_tiite{
+  display: none;
+}
+
+.aa_productdetail_box2_top_detailed_boxtext{
+margin-top: 40px;
+width: 313px;
+margin: 0 auto;
+}
+
+.aa_productdetail_box2_top_detailed_leftbox1_boldtext{
+font-size: 14px;
+width: fit-content;
+font-weight: bold;
+color: var(--maindarkgray);
+margin: 0 auto;
+margin-bottom: 40px;
+margin-top: 35px;
+}
+
+
+.aa_productdetail_box2_top_detailed_leftbox2{
+  margin-top: 70px;
+}
+.aa_productdetail_box2_top_detailed_leftbox3{
+  margin-top: 70px;
+}
+.aa_productdetail_box2_top_detailed_leftbox4{
+  margin-top: 70px;
+}
+
+.aa_productdetail_box2_top_detailed_rightimgbox{
+  display: none;
+}
+
+.aa_productdetail_box2_top_detailed_rightbox1{
+  margin-top: 70px;
+}
+
+.aa_productdetail_box2_top_detailed_rightbox2{
+  margin-top: 70px;
+}
+
+
+
+
+.aa_productdetail_box2_top_detailed_rightlogo_mobile{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+
+
+
+.aa_productdetail_box2_top_detailed_pinktext{
+font-size: 16px;
+color: var(--mainpink);
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.aa_productdetail_box2_top_detailed_pinktext img{
+
+  margin-right: 10px;
+}
+
+.aa_productdetail_box2_top_detailed_text{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.aa_productdetail_box2_top_detailed_ingredient{
+  float: left;
+  margin-right: 130px;
+}
+
+.aa_productdetail_box2_top_detailed_rightlogo-web{
+  display: none;
+}
+
+.aa_productdetail_box2_top_detailed_text.logo1_mobile{
+  margin-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.aa_productdetail_box2_top_detailed_textlogo1img_mobile{
+margin-right: 15px;
+}
+
+.aa_productdetail_box2_top_detailed_textlogo2img_mobile{
+  margin-right: 15px;
+  float: left;
+  margin-top: 15px;
+}
+
+.aa_productdetail_box2_top_detailed_boximg{
+   
+  width: 100%;
+
+  margin-top: 35px;
+  
+}
+
+
+.aa_productdetail_box2_top_detailed_boximg img{
+   
+width: 100%;
+}
+
+
+
+
+.aa_productdetail_box2_feeding_box{
+  display: none;
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+.aa_productdetail_box2_feeding_tiite{
+ display: none;
+ 
+}
+
+.aa_productdetail_box2_feeding_tiite_mobile{
+  font-size: 14px;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 55px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.aa_productdetail_box2_feeding_tiite_pink{
+  color: var(--mainpink);
+  font-size:24px ;
+  font-weight: bold;
+width: fit-content;
+  margin: 0 auto;
+}
+
+
+.aa_productdetail_box2_feeding_table{
+margin: 0 auto;
+text-align:center;
+color: #464646;
+margin-top:24px ;
+font-size: 16px;
+
+
+}
+
+.aa_productdetail_box2_feeding_table tr{
+  height: 50px;
+
+
+
+
+}
+
+.aa_productdetail_box2_feeding_table td{
+  width: 150px;
+  vertical-align:middle ;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+  
+
+  
+}
+
+
+.aa_darkgray{
+  background-color: var(--maindarkgray);
+  color: #ffffff;
+ 
+}
+
+
+.aa_lightgray{
+  background-color: #EFEFEF;
+}
+
+.aa_white{
+ 
+  background-color:#FFFFFF ;
+}
+
+
+
+.aa_productdetail_box2_feeding_text1{
+  font-size: 14px;
+  width: 300px;
+  margin: 0 auto; 
+  margin-top: 33px;
+
+}
+
+.aa_productdetail_box2_feeding_text2{
+  font-size: 14px;
+  margin: 0 auto; 
+  line-height: 35px;
+  letter-spacing: 1px;
+  
+
+}
+
+
+
+
+
+/* 相關產品 */
+.aa_productdetail_box2_recommend_box{
+
+  display: none;
+ 
+}
+
+
+/* 相關產品-手機 */
+.aa_productdetail_box2_recommend_box_mobile{
+  margin-top:68px;
+  margin-bottom: 100px;
+}
+.aa_productdetail_box2_recommend_title{
+  font-size: 16px;
+  width: fit-content;
+  color: #707070;
+  margin: 0 auto;
+}
+.aa_carouselbox{
+  margin-top:14px;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.aa_carousel {
+  background: rgba(238, 238, 238, 0);
+}
+
+.aa_carousel-cell {
+  width: 170px;
+  height: 280px;
+  margin-right: 20px;
+  
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  
+}
+
+/* cell number */
+/* .aa_carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+/* ???????????????????????????????????????????????????? */
+.flickity-button{
+  display: none;
+}
+
+.flickity-page-dots{
+  display: none;
+}
+
+.flickity-slider{
+  width: 400px !important;
+}
+
+
+
+
+.aa_productdetail_box2_recommend_card1{
+  width: 100%;
+  height: auto;
+}
+
+.aa_productdetail_box2_recommend_imgbgbox{
+  width: 100%;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+.aa_productdetail_box2_recommend_imgbox{
+  width: 120px;
+  height: auto;
+  margin: 0 auto;
+  line-height: 19vh;
+  
+}
+.aa_productdetail_box2_recommend_imgbox img{
+ 
+width: 100%;
+
+}
+
+.aa_productdetail_box2_recommend_text{
+  margin: 0 auto;
+  text-align:center;
+  font-size: 12px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+
+}
+
+.aa_productdetail_box2_recommend_btubox{
+  width: fit-content;
+  margin: 0 auto;
+}
+.aa_productdetail_box2_recommend_btu{
+    width: 148px;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #F9DD83;
+    color: #707070;
+  
+}
+
+
+
+
+/* 評價 */
+.aa_productdetail_box2_evaluate_box{
+  width: 306px;
+  margin: 0 auto;
+  display: none;
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+.aa_productdetail_box2_evaluate_tiite{
+  display: none;
+}
+
+.aa_productdetail_box2_evaluate_howMany{
+  margin-top: 33px;
+  font-size: 14px;
+  margin-bottom: 34px;
+}
+.aa_productdetail_box2_evaluate_starbox{
+  width: 100%;
+}
+.aa_productdetail_box2_evaluate_starimg{
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.aa_productdetail_box2_evaluate_startext{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.aa_productdetail_box2_evaluate_text{
+  float: left;
+  margin-right: 10px;
+}
+
+.aa_productdetail_box2_evaluate_leftbox{
+  margin-top: 31px;
+}
+.aa_productdetail_box2_evaluate_bar.five {
+  float: left;
+  height: 10px;
+  width: 200px;
+  margin-top: 6px;
+  background-color: #F9DD83;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.aa_productdetail_box2_evaluate_carouselbox{
+  font-size: 48px;
+     height: 228px;
+      margin: 0 auto;
+      margin-top: 90px;
+      background-color: #FF9A9A;
+  }
+  .n_carousel_avatar11{
+    width: 60px;
+    height: 60px;
+}
+.n_carousel_avatar11 img{
+    width: 100%;
+    height: 100%;
+}
+.n_carousel_nameWrap{
+    margin-left: 20px;
+}
+.n_carousel_name{
+   font-size: 16px;
+}
+.n_walking_location{
+ margin-left: 35px;
+ font-size: 14px;
+}
+
+.n_walkerScore{
+font-size: 12px;
+margin-top: -1px;
+margin-left: 10px;
+
+}
+.n_starWrap{
+display: flex;
+}
+
+
+.carousel {
+background: rgb(255, 255, 255);
+}
+
+.carousel-cell {
+width: 66%;
+height: 200px;
+margin-right: 10px;
+background: #8C8;
+border-radius: 5px;
+counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+display: block;
+text-align: center;
+content: counter(carousel-cell);
+line-height: 200px;
+font-size: 80px;
+color: white;
+}
+.flickity-enabled.is-draggable{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.flickity-page-dots{
+display: none;
+}
+.flickity-prev-next-button .flickity-button-icon,.flickity-prev-next-button.next,.flickity-prev-next-button.previous{
+display: none;
+}
+.carousel-cell{
+background: transparent;
+}
+
+.n_walkactivity01{
+width: 100%;
+height: 150px;
+}
+.n_walkactivity01 img{
+width: 100%;
+}
+.carousel-cell:before{
+display: none;
+}
+
+.n_walkerIntro{
+font-size: 16px;
+font-weight: 500;  
+margin-left: 42px;
+margin-bottom:40px; 
+}
+
+.n_walkerIntroText{
+width: 290px;
+margin: 0 auto;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 1.5px;
+}
+
+.n_walkerIntroText_server{
+margin-top: 50px;
+
+}
+
+
+/* 手機評價倫波 */
+.aa_productdetail_box2_evaluation_box_mobile{
+
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.aa_carousel2 {
+  background: rgba(238, 238, 238, 0);
+}
+
+.aa_carousel-cell2 {
+  width: 228px;
+  height: 335px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  
+}
+
+/* cell number */
+/* .aa_carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+/* ???????????????????????????????????????????????????? */
+.flickity-button{
+  display: none;
+}
+
+.flickity-page-dots{
+  display: none;
+}
+
+.flickity-slider{
+  width: 400px !important;
+}
+
+.carousel-cell_wrap {
+  display: flex;
+}
+
+.star2 {
+  width: 10px;
+  height: 10px;
+  fill: var(--mainyellow);
+
+}
+
+.n_carousel_avatar1 {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.n_carousel_avatar1 img {
+  width: 100%;
+}
+
+.n_star2_wrap {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.n_carousel_name {
+  font-size: 10px;
+
+  margin-top: 20px;
+}
+
+.n_carousel_comment {
+  height: 100px;
+  width: 200px;
+margin: 0 auto;
+margin-top: 50px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.n_carousel_comment_pc{
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border-radius: 10px;
+  
+  margin-left: 13px;
+  float: left;
+}
+.n_carousel_comment_pc img{
+  width: 100%;
+}
+.n_carousel_comment_day{
+  float: left;
+  margin-top: 40px;
+  margin-left:40px ;
+  font-size: 12px;
+}
+  }

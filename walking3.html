@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/0_main/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/0_main/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./css/0_main/navbar/mobile/style.css">
+    <link rel="stylesheet" href="./css/0_main/navbar/web/style.css">
+    <link rel="stylesheet" href="./css/walkingservice/mobile/stylepage3.css">
+    <link rel="stylesheet" href="./css/walkingservice/web/stylepage3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+
+
+    <title>PetLove 派樂星球</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- navbartop是黃色底色 -->
+    <nav class="mobileWrap fixed-top">
+        <div class="navbartop "></div>
+
+        <!-- navbarbg是白色底色 -->
+        <div class="navbarbg">
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <ul>
+                        <a href="#">
+                            <div class="activity">
+                                <li>本月主打活動</li>
+                            </div>
+
+                        </a>
+                        <a href="#">
+                            <div class="recommand">
+                                <svg class="icon icon-star">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-star"></use>
+                                </svg>
+
+                                <div class="hot">熱銷推薦</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recommand">
+
+                                <svg class="icon icon-star">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-star"></use>
+                                </svg>
+
+                                <div class="hot">獨家折扣</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recommand">
+
+                                <svg class="icon icon-star">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-star"></use>
+                                </svg>
+
+                                <div class="hot">超殺特惠</div>
+                            </div>
+                        </a>
+
+                    </ul>
+                    <br><br>
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-product">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-product"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse1">
+                                        <div class="product_text_wrap">
+                                            貓狗商品
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+
+                                            <div class="menuEngSubtitle">Product</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+
+                                <div class="panel-body">貓貓商品</div>
+                                <div class="panel-body">狗狗商品</div>
+                                <div class="panel-body">其他商品</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-booking">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-booking"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse2">
+                                        <div class="product_text_wrap">
+                                            預約住宿
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+                                            <div class="menuEngSubtitle">Booking</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">預約住宿說明</div>
+                                <div class="panel-body">沃夫寵物生活館</div>
+                                <div class="panel-body">牧貓精品寵物旅館</div>
+                                <div class="panel-body">三毛寵物旅館</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-walking">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-walking"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse3">
+                                        <div class="product_text_wrap">
+                                            代遛服務
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+                                            <div class="menuEngSubtitle">Walking</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">遛狗服務說明</div>
+                                <div class="panel-body">遛狗收費方式</div>
+                                <div class="panel-body">遛狗服務評價</div>
+                                <div class="panel-body">立即預定遛狗</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-donate">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-donate"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse4">
+                                        <div class="product_text_wrap">
+                                            愛心捐贈
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+                                            <div class="menuEngSubtitle">Donate</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">愛心捐服務理念</div>
+                                <div class="panel-body">查詢捐款紀錄</div>
+                                <div class="panel-body">愛心捐款</div>
+                                <div class="panel-body">愛心捐糧</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-column">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-column"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse5">
+                                        <div class="product_text_wrap">
+                                            專欄
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+                                            <div class="menuEngSubtitle">Column</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">熱門文章</div>
+                                <div class="panel-body">保健議題</div>
+                                <div class="panel-body">飼料知多少</div>
+                                <div class="panel-body">住宿與代遛</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading product_wrapAll">
+                                <svg class="icon-about">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-about"></use>
+                                </svg>
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse7">
+                                        <div class="product_text_wrap">
+                                            關於我們
+                                            <svg class="icon-keyboard_arrow_down">
+                                                <use
+                                                    xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                                </use>
+                                            </svg>
+                                            <div class="menuEngSubtitle">About us</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">品牌理念</div>
+                                <div class="panel-body">品牌故事 </div>
+                                <div class="panel-body">派樂成員</div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#">
+                        <div class="product_wrapAll">
+                            <svg class="icon-QA1">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-QA1"></use>
+                            </svg>
+                            <div class="product_text_wrap">
+                                常見問題
+                                <div class="menuEngSubtitle">QA</div>
+                            </div>
+                        </div>
+                    </a>
+
+                </ul>
+            </div>
+            <svg class="icon icon-search">
+                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-search"></use>
+            </svg>
+
+            <svg class="logo">
+                <use xlink:href="./images/index/icomoon/symbol-defs.svg#logo"></use>
+            </svg>
+
+            <svg class="icon icon-user">
+                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-user"></use>
+            </svg>
+
+            <svg class="icon icon-cart">
+                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-cart"></use>
+            </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </nav>
+
+    <!-- navbar website -->
+    <div class="NavbarWebAll">
+        <div class="navBox">
+            <div class="disableBox1">
+                <div class="disableTitle"><span>本月主打活動</span>
+                    <div class="disableContent">熱銷推薦</div>
+                    <div class="disableContent">獨家折扣</div>
+                    <div class="disableContent">超殺特惠</div>
+                    <div class="disableContent disableTextBlue">
+                        <div class="checkAll">查看全部</div>
+
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="disableTitle"><span>貓貓商品</span>
+                    <div class="disableContent">貓貓乾糧</div>
+                    <div class="disableContent">貓貓保健</div>
+                    <div class="disableContent">貓貓罐頭</div>
+                    <div class="disableContent">貓貓零食</div>
+                    <div class="disableContent">貓貓鮮食</div>
+                    <div class="disableContent disableTextBlue">
+                        <div class="checkAll">查看全部</div>
+
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="disableTitle"><span>狗狗商品</span>
+                    <div class="disableContent">狗狗乾糧</div>
+                    <div class="disableContent">狗狗保健</div>
+                    <div class="disableContent">狗狗罐頭</div>
+                    <div class="disableContent">狗狗零食</div>
+                    <div class="disableContent">狗狗鮮食</div>
+                    <div class="disableContent disableTextBlue">
+                        <div class="checkAll">查看全部</div>
+
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="disableTitle"><span>其他商品</span>
+                    <div class="disableContent">居家用品</div>
+                    <div class="disableContent">食具/水具</div>
+                    <div class="disableContent">外出用品</div>
+                    <div class="disableContent">清潔用品</div>
+                    <div class="disableContent disableTextBlue">
+                        <div class="checkAll">查看全部</div>
+
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="disableBox2">
+            <div class="disableTitle">
+                <div class="bookWrap">
+                    <div class="disableContent navCheck">預約住宿說明</div>
+                    <svg class="icon icon-arrow-right-circle bookingarrow">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                    </svg>
+                </div>
+                <span>精選旅館</span>
+
+
+                <div class="disableContent textinlinewoof">
+                    <svg class="hostel-1-logo">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#hostel-1-logo"></use>
+                    </svg>
+
+                    <div class="checkAll hotelSpace">沃夫寵物生活館</div>
+                </div>
+
+
+                <div class="disableContent textinlinewoof">
+                    <svg class="hostel-2-logo">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#hostel-2-logo"></use>
+                    </svg>
+
+                    <div class="checkAll">牧貓精品寵物旅館</div>
+                </div>
+
+                <div class="disableContent textinlinewoof">
+                    <svg class="hostel-3-logo">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#hostel-3-logo"></use>
+                    </svg>
+
+                    <div class="checkAll">三毛寵物旅館</div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="navBox3">
+            <div class="disableBox3">
+                <div class="disableTitle">
+
+                    <div class="disableContent">遛狗服務說明
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">遛狗收費方式
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">遛狗服務評價
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">立即預定遛狗
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="navBox4">
+            <div class="disableBox4">
+                <div class="disableTitle">
+
+                    <div class="disableContent">愛心捐服務理念
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">
+                        查詢捐款紀錄
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">愛心捐款
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">愛心捐糧
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="navBox5">
+            <div class="disableBox5">
+                <div class="disableTitle">
+
+                    <div class="disableContent">熱門文章
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">保健議題
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">飼料知多少
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">住宿與代遛
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="navBox6">
+            <div class="disableBox6">
+                <div class="disableTitle">
+
+                    <div class="disableContent">品牌理念
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">品牌故事
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+                    <div class="disableContent">派樂成員
+                        <svg class="icon icon-arrow-right-circle">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-arrow-right-circle"></use>
+                        </svg>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="web_wrap fixed-top">
+
+            <div class="navbartop2"></div>
+            <div class="navbarbg2">
+                <div class="logoWeb "><img src="./images/index/logo.svg" alt=""></div>
+
+
+
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll">
+                        <div class="product_wrap">
+                            <svg class="icon-product">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-product"></use>
+                            </svg>
+                            <div class="webProductWrap">
+
+                                <div class="webProductInside">
+                                    <li>貓狗商品</li>
+                                    <span>Product </span>
+                                </div>
+                                <svg class="icon icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+
+
+
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll2">
+                        <div class="product_wrap">
+                            <svg class="icon-booking">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-booking"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <div class="webProductInside">
+                                    <li>住宿預約</li>
+                                    <span>Booking </span>
+                                </div>
+                                <svg class="icon icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+                            </div>
+                        </div>
+                        <svg class="icon-keyboard_arrow_down">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down"></use>
+                        </svg>
+
+                    </div>
+
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll3">
+                        <div class="product_wrap">
+                            <svg class="icon-walking">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-walking"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <div class="webProductInside">
+                                    <li>代遛服務</li>
+                                    <span>Walking</span>
+                                </div>
+                                <svg class="icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll4">
+                        <div class="product_wrap">
+                            <svg class="icon-donate">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-donate"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <div class="webProductInside">
+                                    <li>愛心捐贈</li>
+                                    <span>Donate </span>
+                                </div>
+                                <svg class="icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll5">
+                        <div class="product_wrap">
+                            <svg class="icon-column">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-column"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <div class="webProductInside">
+                                    <li>專欄</li>
+                                    <span>Column</span>
+                                </div>
+                                <svg class="icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll6">
+                        <div class="product_wrap">
+                            <svg class="icon-about">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-about"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <div class="webProductInside">
+                                    <li>關於我們</li>
+                                    <span>About us</span>
+                                </div>
+                                <svg class="icon-keyboard_arrow_down">
+                                    <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down">
+                                    </use>
+                                </svg>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </a>
+
+                <a href="#" style="text-decoration: none;">
+                    <div class="product_wrapAll7">
+                        <div class="product_wrap">
+                            <svg class="icon-QA">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-QA"></use>
+                            </svg>
+                            <div class="webProductWrap">
+                                <li>常見問題</li>
+                                <span>QA </span>
+                            </div>
+                        </div>
+                        <svg class="icon-keyboard_arrow_down">
+                            <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-keyboard_arrow_down"></use>
+                        </svg>
+
+                    </div>
+
+                </a>
+                <div class="webIcon_wrap">
+                    <svg class="icon icon-search2">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-search2"></use>
+                    </svg>
+
+                    <svg class="icon icon-bubble">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-bubble"></use>
+                    </svg>
+
+                    <svg class="icon icon-user2">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-user2"></use>
+                    </svg>
+
+                    <svg class="icon icon-cart2">
+                        <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-cart2"></use>
+                    </svg>
+                </div>
+                <!-- navbar website -->
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="n_list1"><svg class="n_list1" xmlns="http://www.w3.org/2000/svg" width="341" height="56"
+            viewBox="0 0 341 56">
+            <g id="Group_615" data-name="Group 615" transform="translate(3901 -7459)">
+                <line id="Line_51" data-name="Line 51" x2="277" transform="translate(-3867.5 7471.5)" fill="none"
+                    stroke="#ccc" stroke-width="1" />
+                <circle id="Ellipse_32" data-name="Ellipse 32" cx="12.5" cy="12.5" r="12.5"
+                    transform="translate(-3880 7459)" fill="#ccc" />
+                <text id="_1" data-name="1" transform="translate(-3872 7478)" fill="#fbfbfb" font-size="16"
+                    font-family="SegoeUI, Segoe UI">
+                    <tspan x="0" y="0">1</tspan>
+                </text>
+                <g id="Group_610" data-name="Group 610" transform="translate(-3912 7375)">
+                    <circle id="Ellipse_38" data-name="Ellipse 38" cx="12.5" cy="12.5" r="12.5"
+                        transform="translate(88 84)" fill="#ccc" />
+                    <text id="_2" data-name="2" transform="translate(96 103)" fill="#fbfbfb" font-size="16"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">2</tspan>
+                    </text>
+                </g>
+                <g id="Group_611" data-name="Group 611" transform="translate(-3910 7375)">
+                    <circle id="Ellipse_39" data-name="Ellipse 39" cx="12.5" cy="12.5" r="12.5"
+                        transform="translate(141 84)" fill="#ccc" />
+                    <text id="_3" data-name="3" transform="translate(149 103)" fill="#fbfbfb" font-size="16"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">3</tspan>
+                    </text>
+                </g>
+                <g id="Group_612" data-name="Group 612" transform="translate(-3907 7375)">
+                    <circle id="Ellipse_40" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5"
+                        transform="translate(194 84)" fill="#ccc" />
+                    <text id="_4" data-name="4" transform="translate(202 103)" fill="#fbfbfb" font-size="16"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">4</tspan>
+                    </text>
+                </g>
+                <g id="Group_613" data-name="Group 613" transform="translate(-3905 7375)">
+                    <circle id="Ellipse_41" data-name="Ellipse 41" cx="12.5" cy="12.5" r="12.5"
+                        transform="translate(247 84)" fill="#ccc" />
+                    <text id="_5" data-name="5" transform="translate(255 103)" fill="#fbfbfb" font-size="16"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">5</tspan>
+                    </text>
+                </g>
+                <g id="Group_614" data-name="Group 614" transform="translate(-3915 7375)">
+                    <circle id="Ellipse_41-2" data-name="Ellipse 41" cx="12.5" cy="12.5" r="12.5"
+                        transform="translate(313 84)" fill="#ccc" />
+                    <text id="_6" data-name="6" transform="translate(321 103)" fill="#fbfbfb" font-size="16"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">6</tspan>
+                    </text>
+                </g>
+                <text id="訂單完成" transform="translate(-3618 7511)" fill="#f7f4ee" font-size="14"
+                    font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    <tspan x="0" y="0">訂單完成</tspan>
+                </text>
+                <text id="結帳" transform="translate(-3660 7511)" fill="#f7f4ee" font-size="14"
+                    font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    <tspan x="0" y="0">結帳</tspan>
+                </text>
+                <text id="資料填寫" transform="translate(-3729 7511)" fill="#f7f4ee" font-size="14"
+                    font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    <tspan x="0" y="0">資料填寫</tspan>
+                </text>
+                <text id="選擇代遛員" transform="translate(-3792 7511)" fill="#f7f4ee" font-size="14"
+                    font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    <tspan x="0" y="0">選擇代遛員</tspan>
+                </text>
+                <text id="n_selectTime" data-name="選擇地點、時間" transform="translate(-3860 7511)" fill="#f7f4ee"
+                    font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    <tspan x="0" y="0">選擇地點、時間</tspan>
+                </text>
+                <text id="n_selectSite" transform="translate(-3901 7511)" fill="#707070" font-size="14"
+                    font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.04em">
+                    選擇地區
+                </text>
+            </g>
+        </svg>
+
+
+
+
+    </div>
+
+    <div class="n_list"><svg class="n_list" xmlns="http://www.w3.org/2000/svg" width="1222" height="115"
+            viewBox="0 0 1222 115">
+            <g id="Group_608" data-name="Group 608" transform="translate(1995 553)">
+                <path id="Path_12659" data-name="Path 12659" d="M0,0H1174.041" transform="translate(-1971.541 -517.5)"
+                    fill="none" stroke="#ccc" stroke-width="2" />
+                <g id="Group_602" data-name="Group 602">
+                    <text id="n_selectSite" transform="translate(-1995 -444)" fill="#707070" font-size="22"
+                        font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">選擇地區</tspan>
+                    </text>
+                    <circle id="Ellipse_59" data-name="Ellipse 59" cx="35" cy="35" r="35"
+                        transform="translate(-1986 -553)" fill="#ccc" />
+                    <text id="_1" data-name="1" transform="translate(-1960 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">1</tspan>
+                    </text>
+                </g>
+                <g id="Group_601" data-name="Group 601" transform="translate(4)">
+                    <text id="選擇地點_時間" data-name="選擇地點、時間" transform="translate(-1785 -444)" fill="#707070"
+                        font-size="22" font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">選擇地點、時間</tspan>
+                    </text>
+                    <circle id="Ellipse_60" data-name="Ellipse 60" cx="35" cy="35" r="35"
+                        transform="translate(-1746 -553)" fill="#cbcbcb" />
+                    <text id="_2" data-name="2" transform="translate(-1721 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">2</tspan>
+                    </text>
+                </g>
+                <g id="Group_607" data-name="Group 607">
+                    <text id="選擇代遛員" transform="translate(-1508 -444)" fill="#707070" font-size="22"
+                        font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">選擇代遛員</tspan>
+                    </text>
+                    <circle id="Ellipse_61" data-name="Ellipse 61" cx="35" cy="35" r="35"
+                        transform="translate(-1488 -553)" fill="#ccc" />
+                    <text id="_3" data-name="3" transform="translate(-1462 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">3</tspan>
+                    </text>
+                </g>
+                <g id="Group_604" data-name="Group 604" transform="translate(1)">
+                    <text id="填寫資料" transform="translate(-1272 -444)" fill="#707070" font-size="22"
+                        font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">填寫資料</tspan>
+                    </text>
+                    <circle id="Ellipse_62" data-name="Ellipse 62" cx="35" cy="35" r="35"
+                        transform="translate(-1263 -553)" fill="#ccc" />
+                    <text id="_4" data-name="4" transform="translate(-1237 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">4</tspan>
+                    </text>
+                </g>
+                <g id="Group_605" data-name="Group 605" transform="translate(-1)">
+                    <text id="結帳" transform="translate(-1043 -444)" fill="#707070" font-size="22"
+                        font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">結帳</tspan>
+                    </text>
+                    <circle id="Ellipse_63" data-name="Ellipse 63" cx="35" cy="35" r="35"
+                        transform="translate(-1056 -553)" fill="#ccc" />
+                    <text id="_5" data-name="5" transform="translate(-1030 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">5</tspan>
+                    </text>
+                </g>
+                <g id="Group_606" data-name="Group 606">
+                    <text id="完成訂單" transform="translate(-861 -444)" fill="#707070" font-size="22"
+                        font-family="YuGothicUI-Regular, Yu Gothic UI">
+                        <tspan x="0" y="0">完成訂單</tspan>
+                    </text>
+                    <circle id="Ellipse_64" data-name="Ellipse 64" cx="35" cy="35" r="35"
+                        transform="translate(-852 -553)" fill="#ccc" />
+                    <text id="_6" data-name="6" transform="translate(-826 -503)" fill="#fff" font-size="36"
+                        font-family="SegoeUI, Segoe UI">
+                        <tspan x="0" y="0">6</tspan>
+                    </text>
+                </g>
+            </g>
+        </svg>
+
+    </div>
+    <div class="n_select">請選擇地點、時間</div>
+    <div class="n_walking_site_wrapAll">
+        <div class="n_walking_site_wrap">
+            <div class="n_walking_site">地點:</div>
+            <select class="form-control" style="display: inline-block;">
+                <option value="" disabled selected>請選擇地點</option>
+                <option value="2">大安區</option>
+                <option value="3">萬華區</option>
+                <option value="4">大同區</option>
+            </select>
+        </div>
+        <div class="n_walking_site_wrap">
+            <div class="n_walking_site">日期:</div>
+            <input id="datepicker2" width="210" class="form-control" placeholder="請選擇日期" style="font-style: normal;" />
+        </div>
+        <div class="n_walking_site_wrap">
+            <div class="n_walking_site">時間:</div>
+            <select class="form-control" style="display: inline-block;font-style: normal;">
+                <option value="" disabled selected>請選擇時間</option>
+                <option value="2">09:30</option>
+                <option value="3">10:00</option>
+                <option value="4">10:30</option>
+                <option value="5">11:30</option>
+            </select>
+        </div>
+
+        <div class="n_walking_site_wrap">
+            <div class="n_walking_site">方案:</div>
+            <select class="form-control" style="display: inline-block; font-style: normal;">
+                <option value="" disabled selected>請選擇方案</option>
+                <option value="2">方案一: 30分鐘/150元</option>
+                <option value="3">方案二: 1小時/250元</option>
+
+            </select>
+        </div>
+    </div>
+
+    <svg class="n_map_taipei" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1132.37 973.341">
+        <g id="Group_616" data-name="Group 616" transform="translate(-393.5 -746.182)">
+            <path id="Path_111" data-name="Path 111"
+                d="M1450.676,418.643c-13.154-10.694-32.563-6.737-49.032-10.694-28.82-7.325-44.166-38.124-54.111-66.142a104.3,104.3,0,0,0-7.539-18.019c-11.229-19.57-33.9-29.408-55.716-35.237s-44.861-9.3-64.164-21.388a66.676,66.676,0,0,0-19.3-10.052c-7.86,18.126-27.216,31.761-47.16,29.569-9.945-1.069-21.762-4.759-28.553,2.513a20.535,20.535,0,0,0-4.6,11.336,78.922,78.922,0,0,0,13.207,57,41.111,41.111,0,0,1,7.432,12.886c3.529,13.474-10.694,25.131-23.847,29.355-27,8.716-56.25,3.582-84.161-1.551a122.982,122.982,0,0,1-41.76-13.047c-15.72-9.464-26.254-25.4-36.306-40.744l-33.044-50.689a34.483,34.483,0,0,1-5.775-12.084c-1.924-10.694,7.058-20.639,16.9-25.4s20.961-6.309,30.692-11.336c19.784-10.266,29.622-32.51,38.07-53.149l.481-1.23c-.748-1.337-1.6-2.62-2.246-4.01-19.035-38.445-65.607-62.132-107.42-70.473-9.143-1.818-20.212,2.46-26.735-4.331a26.735,26.735,0,0,1-5.347-11.282c-14.971-49.994-55.074-98.491-107.26-99.4-26.147-.428-48.123,20.586-70.794,33.2-67.532,37.429-133.674,79.3-165.756,149.341-10.961,23.847-1.764,32.456-23.206,47.641-15.346,10.961-52.454,32.082-70.847,36.627-31.761,7.593-61.971,20.8-92.075,33.953,34.007,11.068,65.34,21.388,76.408,25.986,25.505,10.694,50.208,27.7,60.635,53.47,8.983,21.976,6.2,46.839,1.711,70.1-5.347,28.072-18.447,60.688-46.626,65.233-8.448,1.39-17.538,0-25.452,3.315-14.383,6.2-17.7,24.756-18.982,40.37q-1.6,18.928-3.155,37.857a29.354,29.354,0,0,0,1.444,15.4,38.761,38.761,0,0,0,11.229,11.443c20.907,17.912,25.665,47.695,32.777,74.269a32.083,32.083,0,0,0,8.288,16.415,33.846,33.846,0,0,0,17.966,6.149l77.1,10.694c11.015,1.551,22.778,3.422,31.119,10.694,13.368,11.924,12.566,32.51,13.261,50.422a192.5,192.5,0,0,0,17.057,71.97,380.086,380.086,0,0,0,30.852,52.186l32.082,48.123c1.23,1.872,3.155,4.01,5.347,3.315s.909-2.62,0-3.315l-1.176.267a.749.749,0,0,1,1.176-.267,424.6,424.6,0,0,0,114.1-37.161c19.623-10.106,39.193-22.35,51.01-41.011,19.2-30.1,15.025-71.649,37.429-99.507C877,762.4,913.146,756.679,942.982,742.4a301.5,301.5,0,0,0,46.2-29.462l98.17-71.328c15.774-11.443,32.831-25.024,35.45-44.326,16.629,12.3,41.065,4.545,56.517-9.2s25.826-32.456,41.012-46.519a190.843,190.843,0,0,1,42.294-27c26.04-13.581,52.668-27.376,81.648-32.082a105.978,105.978,0,0,1,58.817,6.416q16.041-13.314,33.2-25.024C1453.991,452.276,1466.557,431.69,1450.676,418.643Z"
+                transform="translate(65.3 747.643)" fill="#f9dd83" stroke="#f7f4ee" stroke-linecap="round"
+                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" />
+            <text id="台北" transform="translate(688.86 1202.362)" fill="#707070" font-size="80"
+                font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700" letter-spacing="0.36em">
+                <tspan x="0" y="0">台北</tspan>
+            </text>
+            <text id="此地區有340位代遛員" transform="translate(602.86 1322.363)" fill="#707070" font-size="30"
+                font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.24em">
+                <tspan x="0" y="0">此地區有</tspan>
+                <tspan y="0" font-family="SegoeUI, Segoe UI">340</tspan>
+                <tspan y="0">位代遛員</tspan>
+            </text>
+        </g>
+    </svg>
+
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap'
+        });
+    </script>
+    <script>
+        $('#datepicker2').datepicker({
+            uiLibrary: 'bootstrap'
+        });
+    </script>
+    <div class="n_booking_buttonWrap2">
+        <button class="n_booking_button2" onclick="javascript:location.href='./walking4.html'">下一步</button>
+    </div>
+    <!-- <select class="form-control" style="display: inline-block; width: auto">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select> -->
+
+
+    <a href="#" id="gotop" style="text-decoration: none;">
+        TOP
+    </a>
+
+
+    <a href="#" id="gotop2" style="text-decoration: none;">
+        TOP
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer ">
+        <svg class="logo logofooter">
+            <use xlink:href="./images/index/icomoon/symbol-defs.svg#logo"></use>
+        </svg>
+
+        <div class="follow"><span>隨時追蹤</span>
+            <div class="footerLine"></div>
+        </div>
+        <div class="followCircleWrap">
+            <div class="followCircle">
+                fb
+            </div>
+            <div class="followCircle">
+                ig
+            </div>
+            <div class="followCircle">
+                yt
+            </div>
+            <div class="followCircle">
+                line
+            </div>
+        </div>
+
+
+        <div class="follow buy"><span>購買資訊</span>
+            <div class="footerLine"></div>
+        </div>
+        <div class="wrap-drop noble-gases">
+            <span>多元付款</span>
+            <ul class="drop">
+                <li class="selected"><a>配送方式</a></li>
+                <li><a>新手上路</a></li>
+                <li><a>常見問題</a></li>
+
+            </ul>
+        </div>
+
+        <div class="follow team"><span>合作</span>
+            <div class="footerLine"></div>
+        </div>
+        <div class="wrap-drop noble-gases">
+            <span>實體零售通路</span>
+            <ul class="drop">
+                <li class="selected"><a>合作代理</a></li>
+                <li><a>進口廠商</a></li>
+                <li><a>捐款服務機構</a></li>
+
+            </ul>
+        </div>
+
+
+
+        <div class="follow followus"><span>聯絡我們</span>
+            <div class="footerLine"></div>
+        </div>
+
+        <div class="wrap-drop noble-gases">
+            <span>地址: <br>台北市大安區復興南路一段390號</span>
+            <ul class="drop">
+                <li class="selected"><a>電話:<br> 02-87565302</a></li>
+                <li><a>服務時間:<br> 週一至週五 10:00 - 17:00</a></li>
+                <li><a>E-mail: <br>cokdmekg13444@gmail.com</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="footer2 ">
+
+        <div class="footerBox1">
+            <div class="buy2">購買資訊</div>
+            <div class="buy2_Content">多元付款</div>
+            <div class="buy2_Content">配送方式</div>
+            <div class="buy2_Content">新手上路</div>
+            <div class="buy2_Content">常見問題</div>
+        </div>
+
+
+        <div class="footerBox1">
+            <div class="buy2">合作</div>
+            <div class="buy2_Content">實體零售通路</div>
+            <div class="buy2_Content">合作代理</div>
+            <div class="buy2_Content">進口廠商</div>
+            <div class="buy2_Content">捐款服務機構</div>
+        </div>
+
+
+        <div class="footerBox1">
+            <div class="buy2">聯絡我們</div>
+            <div class="buy2_Content">地址: 台北市大安區復興南路一段390號</div>
+            <div class="buy2_Content">電話: 02-87565302</div>
+            <div class="buy2_Content">服務時間: 週一至週五 10:00 - 17:00</div>
+            <div class="buy2_Content">E-mail: cokdmekg13444@gmail.com</div>
+        </div>
+
+
+        <div class="footerBox1">
+            <div class="buy2">隨時追蹤</div>
+            <div class="buy2_Content_wrap">
+                <div class="buy2_Content buy2_circle">fb</div>
+                <div class="buy2_Content buy2_circle">ig</div>
+            </div>
+            <div class="buy2_Content_wrap">
+                <div class="buy2_Content buy2_circle">yt</div>
+                <div class="buy2_Content buy2_circle">line</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- navbar website -->
+
+
+    <script src="./js/0_main/jquery-3.5.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/0_main/navbar/mobile/custom.js"></script>
+    <script src="./js/0_main/navbar/web/custom.js"></script>
+    <script src="./js/0_main/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

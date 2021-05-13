@@ -1,0 +1,275 @@
+:root {
+    --mainblue: #89A7C2;
+    --mainpink: #FF9A9A;
+    --mainyellow: #F9DD83;
+    --maingray: #CCCCCC;
+    --maindarkgray: #707070;
+
+}
+
+@media (min-width: 375px)and (max-width: 1127px) {
+    body {
+        background-color: #F7F4EE!important;
+        color: var(--maindarkgray)!important;
+        font-family: 'Poppins', 'Noto Sans TC', sans-serif!important;
+    }
+    .n_hero_img_01{
+      background: url(/images/productlist/hero01.png) no-repeat;
+      width: 300px;
+      height: 100px;
+      margin: 0 auto;
+      background-size: contain ;
+        margin-top: 120px;
+    }
+
+    .n_hero_img_02,.n_hero_img_03,.n_hero_img_04{
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        background: url(/images/productlist/hero02.png);
+    }
+    .n_hero_img_03{
+        background: url(/images/productlist/hreo03.png);
+    }
+    .n_hero_img_04{
+        background: url(/images/productlist/hero04.png);
+    }
+
+   
+    .n_hero_img_wrap_flex{
+        display: flex;
+        width: 300px;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+ /* 手機版分類第一層 */
+    .n_category01{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        background: #FBF9F5;
+        font-size: 14px;
+    }
+
+
+    .n_category01-1{
+        color: var(--mainblue);
+    }
+
+    .n_category01-2,.n_category01-3{
+        color: var(--maingray);
+    }
+/* 手機版分類第一層 */
+
+
+
+
+/* 手機版分類第二層 */
+    .n_category02{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .n_category02-1{
+    border-bottom: 3px solid var(--mainyellow);
+    }
+    .n_category02_blueline{
+        width: 300px;
+        height: 1px;
+        background-color: var(--mainblue);
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 80px;
+    }
+
+
+
+    /* 價格篩選 */
+    .n_select_wrap_flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .n_select_price,.n_select_order{
+        width: 140px;
+        height: 35px;
+        background: #fff;
+        border-radius: 10px;
+        left: 10px;
+        line-height: 35px;
+    }
+    .n_select_plus{
+        margin-bottom: 2px;
+        margin-left: 45px;
+    }
+    .n_icon-keyboard_arrow_down{
+        fill: var(--maindarkgray);
+        width: 18px;
+        height: 18px;
+    }
+
+
+    /* 商品區 */
+    
+    .n_product_bg{
+        width: 140px;
+        height: 140px;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+    .n_product_img{
+        background-image: url(/images/productlist/feed01.png);
+        width: 140px;
+        height: 140px;
+        background-size: cover;
+        position: relative;
+    }
+   
+  
+    .n_icon-heart{
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin: 10px;
+        margin-top: -130px;
+        fill: var(--maingray);
+    }
+    .n_product_title{
+        width: 140px;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 10px;
+    }
+   
+    .n_product_price{
+        width: 140px;
+        text-align: center;
+    }
+    .n_product_wrapAll{
+        width: 140px;
+        margin-top: 30px;
+    }
+  
+    .n_booking_button {
+        border: 0;
+        height: 35px;
+        width: 130px;
+        background: var(--mainyellow);
+        border-radius: 18px;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 35px;
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+    .n_icon-cart{
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        margin-bottom: 3px;
+    }
+
+    .n_product_wrap_of2{
+        display: flex;
+        height: 300px;
+        margin-bottom: 80px;
+        justify-content: space-evenly;
+    }
+
+
+    /* 頁數 */
+    .pagination {
+        justify-content: center !important;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        margin-left:35px!important;
+    }
+
+    .page-link {
+        background-color: transparent !important;
+        border: none !important;
+        color: var(--mainblue) !important;
+        font-size: 16px !important;
+    }
+
+    .page-link:hover {
+        background-color: transparent !important;
+        border-color: transparent !important;
+        color: var(--mainyellow) !important;
+    }
+
+    .page-link:focus {
+        box-shadow: none !important;
+    }
+
+    a.badge-light:focus,
+    a.badge-light:hover {
+        background-color: transparent!important;
+    }
+
+    a:hover {
+        color: var(--mainyellow) !important;
+        border-bottom: 1px solid var(--mainyellow) !important;
+        text-decoration: none !important;
+    }
+
+    /* 頁數 */
+
+
+
+
+    .n_list{
+        display: none;
+    }
+    .n_booking_buttonweb{
+        display: none;
+    }
+
+      .n_heart_color{
+       fill: var(--mainpink);
+   }
+
+      .n_product_like{
+        z-index: 100;
+        position: absolute;
+     }
+     .n_icon-heart{
+        
+          z-index: 100;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+margin-left: 110px;
+}
+
+.n_category02.second{
+display: none;
+}
+          
+ .n_category02.third{
+display: none;
+}
+         .form-control {
+        border-radius: 10px !important;
+        width: 140px !important;
+        color: var(--maindarkgray);
+        height: 38px;
+        box-shadow: none!important;
+        outline: none!important;
+        border:none!important;
+    }
+    .form-control:focus {
+        border:none!important;
+         box-shadow: none!important;
+          outline: none!important;
+     }
+}

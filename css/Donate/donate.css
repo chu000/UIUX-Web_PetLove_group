@@ -1,0 +1,302 @@
+.c_donate_title {
+  font-size: 45px;
+  margin: 2% auto;
+  max-width: 180px;
+  border-bottom: 2px solid var(--mainblue);
+}
+.c_donate_main {
+  margin: 0 auto;
+  max-width: 1028px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-top: 150px;
+  overflow: hidden;
+}
+.c_donate_content {
+  margin: 2% auto;
+  font-size: 16px;
+  max-width: 900px;
+  /* word-break: keep-all; */
+  text-align: center;
+  line-height: 2;
+  padding: 3%;
+}
+
+.c_donateBTN {
+  position: relative;
+  margin: 3% 5%;
+  max-width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20%;
+  transition: all 0.5s ease-out;
+  font-size: 30px;
+}
+.c_donateBTN:hover {
+  transform: translateY(10px);
+}
+.c_donateBTN_pM {
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+  bottom: 2px;
+  left: 20px;
+}
+.c_donateBTN_pF {
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+  bottom: 2px;
+  right: 20px;
+}
+.c_donate_note {
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 900px;
+  line-height: 2;
+  padding: 2%;
+}
+.c_donate_note a {
+  color: var(--mainblue);
+  text-decoration: none;
+}
+.c_searchBOX {
+  position: relative;
+  max-width: 500px;
+  margin: 5% auto;
+}
+.c_searchBOX svg {
+  position: absolute;
+  right: 18px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  fill: var(--maingray);
+  cursor: pointer;
+}
+.c_directory {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--mainblue);
+  margin-bottom: 6%;
+}
+.c_directory thead {
+  background-color: var(--mainblue);
+  color: #fff;
+}
+/*更改boostrap表格*/
+.table thead th {
+  border-bottom: none;
+}
+
+.c_searchBOX .form-control {
+  border-radius: 50px;
+  border: 0;
+  /* -webkit-box-shadow: none; */
+  /* box-shadow: none; */
+}
+ .form-control:focus {
+  border-color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 3px  var(--mainyellow);
+  box-shadow: 0px 0px 0px 3px  var(--mainyellow);
+}
+
+.table td,
+.table th {
+  padding: 1rem;
+  border-top: 1px solid var(--mainblue);
+}
+.form-control::placeholder {
+  color: var(--maingray);
+}
+/*關掉手機芳名錄版*/
+.c_directory_mobile {
+  display: none;
+}
+/*查無資料*/
+#c_NO_directory {
+  display: none;
+  margin: 10% auto;
+  max-width: 100px;
+}
+#c_appear_directory {
+  display: none;
+}
+/* -----------外掛slick  ---------輪播圖片-----調整 */
+
+
+.c_gallery_slick {
+  position: relative;
+  margin: 8% auto;
+  max-width: 1490px;
+
+}
+
+.c_gallery_slick img{
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+/* Arrows */
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+
+
+
+    width: 20px !important;
+    height: 20px !important;
+
+}
+.slick-prev:before,
+.slick-next:before
+{
+ 
+font-size: 30px !important;
+    opacity: 1 !important;
+    color: var(--maingray) !important;
+
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 8% !important;
+}
+
+/*---------------footer dog---------------------*/
+.c_foot_dog {
+  position: relative;
+}
+.c_foot_auto{
+  position: absolute;
+  max-width: 50px;
+  right: 50px;
+  bottom: -0px;
+  cursor: pointer;
+
+}
+.c_footDog01 {
+  position: absolute;
+  max-width: 250px;
+  left: 250px;
+  bottom: -15px;
+}
+.c_footDog02 {
+  position: absolute;
+  max-width: 250px;
+  right: 250px;
+  bottom: -15px;
+}
+
+/* 活動照片flickity外掛 css */
+
+/* .carousel {
+  background: rgba(255, 255, 255, 0);
+} */
+/* 
+.carousel-cell {
+  max-width: 400px; */
+  /* height: 300px; */
+
+  /* background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  counter-increment: carousel-cell;
+  overflow: hidden;
+} */
+/* .carousel-cell img {
+width: 100%;
+} */
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+/*---------------------------------------手機板---------------------------------------------------------*/
+@media (max-width: 414px) {
+  .c_donate_title {
+    font-size: 24px;
+    max-width: 100px;
+    margin: 5% auto;
+  }
+  .c_donate_main {
+    /* background-color: rgba(255, 255, 255, 0); */
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 90px;
+  }
+
+  .c_donate_content {
+    font-size: 14px;
+    padding: 0 5%;
+  }
+  .c_donateBTN {
+    margin: 16% 2%;
+    max-width: 175px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .c_donateBTN_pM {
+    margin: 0;
+    bottom: 10px;
+    left: 10px;
+  }
+  .c_donateBTN_pF {
+    margin: 0;
+    bottom: 10px;
+    right: 10px;
+  }
+  .c_donate_note {
+    font-size: 12px;
+    padding: 7%;
+  }
+
+  .c_searchBOX {
+    margin: 10% 2%;
+  }
+  .c_directory {
+    display: none;
+  }
+  .c_directory_mobile {
+    display: block;
+    margin: 4% auto;
+    max-width: 282px;
+    border-radius: 10px;
+    border: 2px solid var(--mainblue);
+    color: var(--mainblue);
+    padding: 5%;
+    font-size: 14px;
+  }
+  .c_directory_mobile th {
+    padding: 0;
+  }
+  .c_directory_mobile td {
+    margin-left: 5%;
+    /* padding: 1%; */
+    padding-left: 10%;
+  }
+  .c_footDog02,.c_footDog01 {
+    display: none;
+  }
+
+.c_foot_auto{
+  right: 2%;
+}
+
+
+
+  /* -----------外掛slick  ---------輪播圖片-----調整 */
+  .c_gallery_slick button{
+    display: none !important;
+    }
+
+    .slick-dotted.slick-slider {
+      margin-bottom: 10% !important;
+    }
+}

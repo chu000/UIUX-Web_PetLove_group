@@ -1,0 +1,32 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+
+<symbol id="icon-keyboard_arrow_left" viewBox="0 0 24 24">
+<path d="M15.422 16.594l-1.406 1.406-6-6 6-6 1.406 1.406-4.594 4.594z"></path>
+</symbol>
+<symbol id="icon-keyboard_arrow_right" viewBox="0 0 24 24">
+<path d="M8.578 16.594l4.594-4.594-4.594-4.594 1.406-1.406 6 6-6 6z"></path>
+</symbol>
+<symbol id="search" viewBox="0 0 21.406 18.134">
+
+  <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="none" stroke="#707070" stroke-width="2">
+    <ellipse cx="7.745" cy="8.229" rx="7.745" ry="8.229" stroke="none"/>
+    <ellipse cx="7.745" cy="8.229" rx="6.745" ry="7.229" fill="none"/>
+  </g>
+  <line id="Line_1" data-name="Line 1" x2="4.914" y2="3.932" transform="translate(15.086 12.797)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+
+
+</symbol>
+<symbol id="c_check" viewBox="0 0 40 40">
+
+
+  <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M40.563,20.563a20,20,0,1,1-20-20A20,20,0,0,1,40.563,20.563ZM18.249,31.152,33.088,16.314a1.29,1.29,0,0,0,0-1.825l-1.825-1.825a1.29,1.29,0,0,0-1.825,0l-12.1,12.1-5.65-5.65a1.29,1.29,0,0,0-1.825,0L8.037,20.94a1.29,1.29,0,0,0,0,1.825l8.387,8.387a1.29,1.29,0,0,0,1.825,0Z" transform="translate(-0.563 -0.563)" />
+
+
+
+</symbol>
+
+
+
+</defs>
+</svg>
