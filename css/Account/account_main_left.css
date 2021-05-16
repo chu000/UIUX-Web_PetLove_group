@@ -1,0 +1,282 @@
+@media only screen and (min-width: 1128px){
+    M
+body {
+    background-color: #F7F4EE;
+
+    font-family: 'Poppins', 'Noto Sans TC', sans-serif;
+
+}
+
+.accordion {
+
+    width: fit-content;
+
+}
+
+.btn.btn-link.collapsed {
+    border: 0;
+
+}
+
+
+
+.card-body {
+    padding: 0;
+
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+    
+
+
+
+}
+
+.btn .btn-link {
+    text-align: center !important;
+    line-height: 50px !important;
+    width: fit-content;
+
+    background-color: transparent;
+
+
+}
+
+.card-header {
+
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+
+}
+
+.mb-0 {
+    margin: 0;
+
+
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #89A7C2;
+    text-decoration: none;
+    border: 0;
+
+
+}
+
+.l_threefloor button:hover,
+.twofloor:hover{
+   
+   color: #F9DD83;
+
+}
+
+
+
+
+
+/* 每一層設定 */
+.twofloor {
+    width: 110px;
+    margin-left: 50px;
+    padding: 0 !important;
+    margin-right: 80px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #89A7C2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+
+
+}
+
+.threefloor {
+    margin-left: 100px;
+    padding: 0 !important;
+    /* margin-right: 50px; */
+    font-weight: normal;
+    color: #89A7C2;
+    font-size: 18px;
+    /* margin-top: 5px; */
+    text-align: left;
+   
+}
+
+
+.onefloor {
+    /* border-bottom: 1px solid #89A7C2; */
+    font-size: 24px;
+    color: #89A7C2;
+    /* margin-left: 70px; */
+
+}
+
+
+
+
+/* 本月主打活動 其他商品 的字 */
+.aa_leftnaverber_box1_text {
+    margin-bottom: 10PX;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.aa_leftnaverber_box4_text {
+    margin-bottom: 10PX;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* 展開中 */
+.collapsing {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+/* 展開完成 */
+.collapse.in {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.btn:focus,
+
+.btn:active:focus,
+
+.btn.active:focus,
+
+.btn.focus,
+
+.btn:active.focus,
+
+.btn.active.focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn {
+    transition: none
+}
+
+.l_line {
+    width: 230px;
+    height: 3px;
+    background-color: #89A7C2;
+}
+
+.l_member_detail {
+    width: 300px;
+    height: 500px;
+    margin-top: 87px;
+    /* border: 1px solid red; */
+    
+
+
+}
+
+.l_threefloor {
+    margin-top: 8px;
+    
+
+}
+.l_photo_name{
+    width: 250px;
+    /* border: 1px solid red; */
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l_member_photo{
+    width: 100px;
+    height: 100px;
+    background-color: #89A7C2;
+    border-radius: 50px;
+}
+.l_member_name{
+    width: 120px;
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-weight: 600;
+    color: #707070;
+    
+}
+
+/* 聯絡客服 */
+.modal-content {
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.modal-footer {
+ border: 0;
+    margin: 0 auto !important;
+
+}
+.modal-body form{
+    padding-left: 10px;
+}
+.modal-body {
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.l_input input,
+.l_input textarea{
+   width: 100%;
+ 
+}
+
+.l_send_contact {
+    width: 130px;
+    border-radius: 50px;
+    background-color: #89A7C2;
+    color: #fff;
+    border: none;
+    outline: none;
+    /* margin-right: 90px; */
+   
+    
+}
+
+.form-control:focus {
+    border-color: #fff;
+    -webkit-box-shadow: 0px 0px 0px 3px #F9DD83;
+    box-shadow: 0px 0px 0px 3px #F9DD83;
+    
+}
+
+.modal-header .close {
+    
+    font-size: 30px;
+}
+
+.modal-header h5 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+}

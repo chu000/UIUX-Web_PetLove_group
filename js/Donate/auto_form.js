@@ -27,7 +27,7 @@ $(".c_foot_auto").click( function () {
   $('.c_pet_name').val("Luku");
   $('.c_pet_age').val("7歲");
   $('.c_fast_pet_count').val("1隻");
-  $('.c_fast_pet_type').val("米格魯");
+  $('.c_fast_pet_type').val("波斯貓");
   
   
 

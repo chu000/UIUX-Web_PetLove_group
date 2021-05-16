@@ -1,0 +1,439 @@
+@media (min-width:100px) and (max-width: 1127px){
+.container-fluid{
+    width: 100%;
+    padding: 0 0 ;
+}
+.l_singleroom_title_mobile{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.l_singleroom_pic{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 50px auto ;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.l_room_pic_1{
+    width: 40%;
+    height: 300px;
+   
+    
+}
+.l_room_pic_1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+
+.carousel {
+    width: 60%;
+    height: 300px;
+   
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 300px;
+    margin-right: 10px;
+
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+}
+
+.flickity-button {
+    display: none;
+}
+
+.flickity-page-dots{
+    display: none;
+}
+
+.l_mian_detail{
+    width: 100%;
+
+    /* display: flex; */
+    margin: 50px auto;
+    /* border: 1px solid red; */
+   
+}
+
+.l_main_right_1{
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.l_subtitle{
+   font-size: 16px;
+    height: 50px;
+    border-bottom: 1px solid #89A7C2;
+    display: flex;
+    width: 100%;
+  
+    justify-content: space-evenly;
+}
+.l_subtitle a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.l_subtitle a:hover{
+    text-decoration: none;
+    color: var(--mainblue);
+}
+.l_subtitle_1{
+   font-size: 16px;
+}
+
+.l_yellow_line_mobile{
+    width: 80px;
+    height: 3px;
+    background-color: var(--mainyellow);
+   transform: translateX(60px)translateY(-23px);
+   
+}
+.l_main_item{
+   
+    margin: 50px auto 70px;
+  
+  
+}
+.l_item_title{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--mainblue);
+   
+    width: 95%;
+    margin: 0 auto 30px;
+    
+}
+
+.l_item_standard{
+    width: 95%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.l_size_1{
+    width: 30%;
+    letter-spacing: 2px;
+}
+.l_size_2{
+    width: 60%;
+    letter-spacing: 2px;
+}
+
+.l_item_text span{
+    font-weight: 600;
+   line-height: 40px;
+   letter-spacing: 2px;
+}
+.l_item_text{
+    line-height: 25px;
+    letter-spacing: 2px;
+    width:95%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.l_main_bottom,
+.l_main_right2_bottom{
+    width: 90%;
+    margin: 0 auto 100px;
+    
+}
+.l_main_item_2{
+    margin-top: 50px;
+    margin-bottom: 70px;
+   
+
+}
+.l_blue_line{
+    width: 100%;
+    height: 1px;
+    background-color: #DAD9D7;
+}
+
+.l_hospital_logo_img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.l_hospital_logo_img img{
+    width: 100%;
+    height: 100%;
+}
+.l_docter{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.l_docter_img{
+    width: 160px;
+    height: 160px;
+    margin: 30px auto 40px;
+}
+.l_docter_img img{
+    width: 100%;
+    height: 100%;
+}
+.l_docter_title{
+    margin: 20px 0 ;
+    font-weight: 600;
+    font-size: 22px;
+}
+.l_docter_text{
+   font-size: 16px;
+   
+    /* border: 1px solid red; */
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+.l_main_right_2 .l_item_text{
+     /* border: 1px solid red; */
+    
+     width: 90%;
+     margin-top: 50px;
+     font-size: 14px;
+     line-height: 30px;
+}
+.l_medical_all{
+   width: 90%;
+   height: 600px;
+    margin: 0 auto;
+     /* border: 1px solid red; */
+     display:grid;
+     grid-template-columns: 1fr 1fr ;
+     Grid-template-rows:  1fr 1fr   1fr 1fr   ;
+     text-align: center;
+    
+
+}
+.l_medical_img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.l_medical_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.l_medical_text{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+.l_footer_img{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+.l_footer_dog{
+    width: 230px;
+
+    
+}
+.l_footer_dog img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 0 50px;
+
+}
+.l_footer_cat{
+   
+    width: 200px;
+}
+.l_footer_cat img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 0 17px;
+}
+/* 日期 */
+.l_main_left {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width:95%;
+    height: 300px;
+    padding-left: 1px;
+    background-color: #FBF9F6;
+    padding: 20px;
+   margin: 0 auto 100px;
+    left: 0px;
+    bottom: 0;
+    
+}
+
+.l_main_left .l_money_oneday {
+    margin: 20px 0 0 40px;
+    font-size: 16
+    px;
+    color: #707070;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.l_booing_Check {
+
+    display: flex;
+    justify-content: center;
+}
+
+.Check-in,
+.Check-out {
+
+
+    width: 25px;
+    height: 30px;
+}
+
+.Check-in svg,
+.Check-out svg {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    fill: #707070;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.Check-in_bar,
+.Check-out_bar {
+    width: 50%;
+
+    /* border-radius: 10px; */
+    /* border: 1px solid #ccc; */
+}
+
+.l_Check-in_date,
+.l_Check-out_date {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 40px;
+    outline: none;
+}
+
+.l_number_pet {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    outline: none;
+    padding-left: 30px;
+}
+
+
+
+
+.l_next_check {
+    width: 100%;
+
+    height: 50px;
+    background-color: #F9DD83;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.l_next_check a {
+    color: #707070;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.l_main_left_mobile{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    
+}
+.l_immediately{
+    width: 50%;
+    height: 40px;
+    background-color: #F9DD83;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 40px;
+    border: 0;
+}
+.l_main_left_mobile .l_money_oneday{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.move{
+    position: fixed;
+}
+
+.aaa{
+
+bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+.l_singleroom_title,
+.l_footer_img,
+.l_main_left_2,
+.l_yellow_line{
+    display: none;
+}
+
+
+
+
+
+    
+}
+

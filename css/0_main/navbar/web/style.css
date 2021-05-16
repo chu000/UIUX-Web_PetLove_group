@@ -1,20 +1,17 @@
 :root {
-  --mainblue: #89A7C2;
-  --mainpink: #FF9A9A;
-  --mainyellow: #F9DD83;
-  --maingray: #CCCCCC;
+  --mainblue: #89a7c2;
+  --mainpink: #ff9a9a;
+  --mainyellow: #f9dd83;
+  --maingray: #cccccc;
   --maindarkgray: #707070;
 }
 
 @media only screen and (min-width: 1128px) {
-
   body {
-    background-color: #F7F4EE;
+    background-color: #f7f4ee;
     color: var(--maindarkgray);
-    font-family: 'Poppins', 'Noto Sans TC', sans-serif;
-
+    font-family: "Poppins", "Noto Sans TC", sans-serif;
   }
-
 
   /* mobile */
 
@@ -41,7 +38,6 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-
   }
 
   #menuToggle a {
@@ -55,7 +51,6 @@
     color: tomato;
     display: none;
   }
-
 
   #menuToggle input {
     display: block;
@@ -89,9 +84,8 @@
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
     display: none;
   }
 
@@ -109,7 +103,7 @@
   * Transform all the slices of hamburger
   * into a crossmark.
   */
-  #menuToggle input:checked~span {
+  #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(2px, 4px);
     background: #232323;
@@ -119,7 +113,7 @@
   /*
   * But let's hide the middle one.
   */
-  #menuToggle input:checked~span:nth-last-child(3) {
+  #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
     display: none;
@@ -128,7 +122,7 @@
   /*
   * Ohyeah and the last one should go the other direction
   */
-  #menuToggle input:checked~span:nth-last-child(2) {
+  #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
     display: none;
   }
@@ -152,7 +146,7 @@
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     display: none;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
   #menu li {
@@ -165,11 +159,10 @@
   /*
   * And let's slide it in from the left
   */
-  #menuToggle input:checked~ul {
+  #menuToggle input:checked ~ ul {
     transform: none;
     display: none;
   }
-
 
   .icon-star {
     width: 20;
@@ -186,23 +179,18 @@
   .logo {
     display: none;
     width: 92.28px;
-
   }
 
   .logo img {
     display: none;
     width: 100%;
-
   }
 
   .follow {
     display: none;
   }
 
-
-
   .icon-user {
-
     width: 20px;
     display: flex;
     display: none;
@@ -233,30 +221,17 @@
 
   /* mobile end */
 
-
-
-
-
-
-
-
-
   .logoWeb {
     width: 92.28px;
-
   }
 
   .logoWeb img {
     width: 100%;
-
   }
 
   .web_wrap {
     width: 100%;
-
   }
-
-
 
   .web_wrap li {
     list-style: none;
@@ -327,12 +302,10 @@
     border-bottom: 1px solid #70707059;
   }
 
-
   .buy2_Content {
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
-
   }
 
   .buy2_circle {
@@ -369,7 +342,6 @@
     fill: #70707059;
   }
 
-
   .product_wrapAll {
     display: flex;
     height: 70px;
@@ -381,8 +353,6 @@
     height: 70px;
     width: 90px;
   }
-
-
 
   .product_wrapAll2 {
     display: flex;
@@ -481,7 +451,6 @@
     z-index: 999;
   }
 
-
   .disableBox5 {
     margin-top: -400px;
     margin-left: 1085px;
@@ -514,7 +483,6 @@
   .disableTitle {
     margin: 20px;
     margin-top: -10px;
-
   }
 
   .disableTitle span {
@@ -536,19 +504,13 @@
     display: flex;
     position: relative;
     z-index: 999;
-
   }
-
 
   .navBox3 {
     display: flex;
     position: relative;
     z-index: 1000;
-
   }
-
-
-
 
   .wrap-drop,
   .noble-gases {
@@ -558,7 +520,6 @@
   a {
     text-decoration: none;
   }
-
 
   .icon-product {
     width: 25px;
@@ -594,7 +555,6 @@
     margin-right: 10px;
   }
 
-
   .icon-column {
     width: 25px;
     height: 25px;
@@ -613,7 +573,6 @@
     margin-right: 10px;
   }
 
-
   .followCircle {
     display: none;
   }
@@ -623,7 +582,6 @@
     margin-top: 10px;
     margin-bottom: 40px;
   }
-
 
   .disableTextBlue {
     color: var(--mainblue);
@@ -650,7 +608,6 @@
     display: flex;
   }
 
-
   .bookingarrow {
     margin-left: 2px;
     margin-top: 20px;
@@ -665,9 +622,11 @@
 
   .textinlinewoof {
     display: flex;
-
   }
-
+  .textinlinewoof svg {
+    stroke: var(--mainblue);
+    fill: var(--mainblue);
+  }
   .pethotel_moon {
     width: 25px;
     height: 25px;
@@ -709,7 +668,6 @@
     background: var(--mainblue);
   }
 
-
   #gotop2 {
     position: fixed;
     z-index: 90;
@@ -724,10 +682,10 @@
     border-radius: 50%;
     transition: all 0.5s;
     text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
-  .webProductInside span{
+  .webProductInside span {
     font-size: 14px;
   }
-
 }

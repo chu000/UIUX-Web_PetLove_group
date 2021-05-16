@@ -29,6 +29,7 @@
     width: 60px;
     height: 60px;
     margin-right: 50px;
+    stroke: var(--mainblue)
 }
 .l_bigpic{
     width: 1200px;

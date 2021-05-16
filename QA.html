@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="./css/0_main/navbar/web/style.css">
     <link rel="stylesheet" href="./css/QA/web/style.css">
     <link rel="stylesheet" href="./css/QA/mobile/style.css">
-
-
+    <link rel="stylesheet" href="./css/0_main/contact.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
         rel="stylesheet">
@@ -927,7 +926,8 @@
                 </div>
 
                 <div class="aa_qa_btu_box">
-                    <button class="aa_qa_btu_box_btu">聯繫客服</button>
+                    <button class="aa_qa_btu_box_btu" data-toggle="modal"
+                    data-target="#exampleModal" data-whatever="@mdo">聯繫客服</button>
 
                 </div>
 
@@ -944,7 +944,42 @@
     </div>
 
 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ aria-hidden="true">
+ <div class="modal-dialog" role="document">
+     <div class="modal-content">
+         <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">聯絡我們 Contact</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+         </div>
+         <div class="modal-body">
+             <form>
+                 <div class="form-group ">
 
+                     <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的姓名">
+                 </div>
+                 <div class="form-group ">
+
+                     <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的電子信箱">
+                 </div>
+                 <div class="form-group ">
+
+                     <textarea class="form-control" id="message-text"
+                         placeholder="輸入您的訊息。若是詢問特定商品, 請留下商品名稱,也歡迎留下電子信箱以外的聯絡方式,謝謝!"></textarea>
+                 </div>
+             </form>
+         </div>
+         <div class="modal-footer">
+             <button type="submit" class="btn l_send_contact">發送</button>
+         </div>
+     </div>
+
+ </div>
+</div>
+ <!-- Modal -->
 
 
 
